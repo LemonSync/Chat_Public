@@ -18,12 +18,12 @@
 </h3>
 
 <p align="center">
-  Cek Websitenya <a href="#">Klik Saya</a>
+  Cek Websitenya <a href="https://chat-public-nine.vercel.app/">Klik Saya</a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/repo-size/LemonSync/Public-Web-Chat?style=for-the-badge" />
-  <img src="https://img.shields.io/github/languages/count/LemonSync/Public-Web-Chat?style=for-the-badge" />
+  <img src="https://img.shields.io/github/repo-size/LemonSync/Chat_Public?style=for-the-badge" />
+  <img src="https://img.shields.io/github/languages/count/LemonSync/Chat_Public?style=for-the-badge" />
 </p>
 
 ---
