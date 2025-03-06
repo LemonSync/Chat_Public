@@ -3,25 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat Sekolah</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://files.catbox.moe/2synta.jpg" type="image/jpeg">
+    <title>Chatting App</title>
 </head>
 <body>
+    <script>
+        let encodedHTML = "PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImlkIj4KPGhlYWQ+CiAgICA8bWV0YSBjaGFyc2V0PSJVVEYtOCI+CiAgICA8bWV0YSBuYW1lPSJ2aWV3cG9ydCIgY29udGVudD0id2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEuMCI+CiAgICA8dGl0bGU+Q2hhdCBTZWtvbGFoPC90aXRsZT4KICAgIDxsaW5rIHJlbD0ic3R5bGVzaGVldCIgaHJlZj0ic3R5bGVzLmNzcyI+CjwvaGVhZD4KPGJvZHk+CgogICAgPGRpdiBjbGFzcz0iY2hhdC1jb250YWluZXIiPgogICAgICAgIDxoZWFkZXI+CiAgICAgICAgICAgIDxoMj5DaGF0IFB1YmxpazwvaDI+CiAgICAgICAgICAgIDxwPk1hZGUgV2l0aCAmIzk4Mjk7IGJ5IDxhIHN0eWxlPSJjb2xvcjogcmVkOyB0ZXh0LWRlY29yYXRpb246IG5vbmU7IiBocmVmPSJodHRwczovL2dpdGh1Yi5jb20vTGVtb25TeW5jIj5MZW1vbjwvYT48L3A+CiAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJ0ZXh0IiBpZD0ibmFtZSIgcGxhY2Vob2xkZXI9Ik5hbWEgQW5kYSIgcmVxdWlyZWQ+CiAgICAgICAgPC9oZWFkZXI+CgogICAgICAgIDxkaXYgaWQ9ImNoYXQtYm94Ij48L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzcz0iaW5wdXQtYXJlYSI+CiAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJ0ZXh0IiBpZD0ibWVzc2FnZSIgcGxhY2Vob2xkZXI9IktldGlrIHBlc2FuLi4uIiByZXF1aXJlZD4KICAgICAgICAgICAgPGJ1dHRvbiBvbmNsaWNrPSJzZW5kTWVzc2FnZSgpIj5LaXJpbTwvYnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgICA8c2NyaXB0IHR5cGU9Im1vZHVsZSIgc3JjPSJzY3JpcHQuanMiPjwvc2NyaXB0Pgo8L2JvZHk+CjwvaHRtbD4=";
 
-    <div class="chat-container">
-        <header>
-            <h2>Chat Publik</h2>
-            <input type="text" id="name" placeholder="Nama Anda" required>
-        </header>
-
-        <div id="chat-box"></div>
-
-        <div class="input-area">
-            <input type="text" id="message" placeholder="Ketik pesan..." required>
-            <button onclick="sendMessage()">➤</button>
-        </div>
-    </div>
-
-    <script type="module" src="script.js"></script>
+        if (typeof atob === "function") {
+            document.write(atob(encodedHTML));
+        } else {
+            document.write("<p>Error: Browser Kamu tidak mendukung Base64 decoding.</p>");
+        }
+    </script>
 </body>
 </html>
